@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack --progress --colors --watch",
-    "build": "cross-env NODE_ENV=production webpack --progress --compress"
+    "build": "cross-env NODE_ENV=production webpack --progress --compress --hide-modules"
   },
   "keywords": [],
   "author": "",
